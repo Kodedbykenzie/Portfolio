@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Precious Web Developer</title>
+<link rel="stylesheet" href="portfolio.css">
+
+<body>
+    <!-- Navbar -->
+    <!-- Hero Section -->
+    <!-- Skills section -->
+    <!-- Contact section -->
+    <!-- Social accounts - Fixed to the right -->
+    <!-- Scroll to top -->
+    <!-- Footer section -->
+    <nav>
+        <h1>Mozia Precious</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="hero" id="about">
+        <img src="Precious2.jpg" alt="precious-mozia" loading="aa" class="hero-img">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus voluptas ducimus corporis harum accusamus voluptatum dolorem minus quae maxime adipisci impedit natus quisquam vitae eum, officiis ab odio. Blanditiis.
+            </p>
+        </div>
+    </section>
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eaque qui vel maxime dignissimos possimus incidunt illo ex praesentium nobis nesciunt recusandae perspiciatis hic quos vero expedita odio iusto labore?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis dolore ratione rerum error assumenda, dignissimos alias voluptates voluptate cupiditate odit, labore nesciunt? Alias deserunt a excepturi sint repellendus facere.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis esse ad laudantium ut earum, doloribus voluptatibus architecto ullam nostrum distinctio. Nostrum esse deserunt doloribus at laboriosam modi neque labore!
+        </p>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="html.jpg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="css.jpg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some Of My Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="feedme.jpeg" alt="feed me" loading="lazy" class="project-pic">
+                <h3 class="project-title">Food Newsletter</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolores. Aperiam vel sequi a vero ex laborum, quia incidunt, molestias minus sint dignissimos? Id autem vitae soluta numquam et odit.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check It Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="blog.jpeg" alt="feed me" loading="lazy" class="project-pic">
+                <h3 class="project-title">My Blog</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolores. Aperiam vel sequi a vero ex laborum, quia incidunt, molestias minus sint dignissimos? Id autem vitae soluta numquam et odit.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check It Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="mia.jpeg" alt="feed me" loading="lazy" class="project-pic">
+                <h3 class="project-title">Mia's Cosmetics Sign Up</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolores. Aperiam vel sequi a vero ex laborum, quia incidunt, molestias minus sint dignissimos? Id autem vitae soluta numquam et odit.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check It Out</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field">
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field">
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="submit" id="submit-btn" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- it didn't work, the gif
+    <div class="socials">
+        <a href="#" target="_blank">
+            <video src="twitter.mp4" type="video/mp4" class="socion"></video>
+        </a>
+        <a href="#" target="_blank">
+            <video src="instagram (1).mp4" type="video/mp4" class="socion"></video>
+        </a>
+        <a href="#" target="_blank">
+            <video src="linkedin.mp4" type="video/mp4" class="socion"></video>
+        </a>
+        <a href="#" target="_blank">
+            <video src="github (1).mp4" type="video/mp4" class="socion"></video>
+        </a>
+    </div>
+-->
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://twitter.com/chibundu_" target="_blank">Precious</a>
+        </p>
+    </footer>
+</body>
+
+</html>
